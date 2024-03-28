@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif
+}
+
+
+
+@media (max-width: 720px) {
+    .hide-in-mobile-view {
+        display: none;
+    }
+}
+
+@media (min-width: 720px) {
+    .hide-in-desktop-view {
+        display: none;
+    }
+}

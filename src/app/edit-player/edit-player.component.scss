@@ -1,0 +1,15 @@
+.profile-picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    padding: 8px;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.15);
+    }
+}
+
+mat-dialog-content {
+    background-color: white;
+}

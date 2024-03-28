@@ -1,0 +1,58 @@
+.start-screen {
+    background-image: url('/assets/img/main_screen.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #FFAB02;
+    font-size: 72px;
+    position: absolute;
+    text-shadow:
+        0px -1px 3px #fff,
+        /* Innermost layer - intense heat (white) */
+        0px -2px 0px #FF3,
+        /* Second layer - core of flame (yellow) */
+        0px -6px 12px #F90,
+        /* Middle layer - body of flame (orange) */
+        0px -10px 20px #C33;
+    /* Outermost layer - edges of flame (red) */
+
+    animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+
+    @keyframes animate {
+        0% {
+            transform: translateY(0px);
+        }
+
+        20% {
+            transform: translateY(-20px);
+        }
+
+        40%,
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        text-shadow:
+            0px -1px 3px #fff,
+            /* Innermost layer - intense heat (white) */
+            0px -2px 0px #fff,
+            /* Second layer - core of flame (yellow) */
+            0px -6px 12px #F90,
+            /* Middle layer - body of flame (orange) */
+            0px -10px 20px #f00;
+        /* Outermost layer - edges of flame (red) */
+    }
+}
