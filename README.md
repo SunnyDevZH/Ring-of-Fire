@@ -1,6 +1,6 @@
 # Ring of Fire
 
-Dies ist das Frontend für das **Ring of Fire**-Projekt. Die Anwendung basiert auf Angular und nutzt Firebase/Firestore als Backend.
+Dies ist das Frontend für das **Ring of Fire**-Projekt, ein Trinkspiel, das mit 2-6 Personen gespielt werden kann. Die Anwendung basiert auf Angular und nutzt Firebase/Firestore als Backend.
 
 ---
 
@@ -28,7 +28,7 @@ Dies ist das Frontend für das **Ring of Fire**-Projekt. Die Anwendung basiert a
 
 ### 1. Repository klonen
 ```bash
-git clone <REPO-URL>
+git clone https://github.com/SunnyDevZH/Ring-of-Fire
 cd ringoffire
 ```
 
