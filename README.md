@@ -29,7 +29,7 @@ Dies ist das Frontend für das **Ring of Fire**-Projekt, ein Trinkspiel, das mit
 ### 1. Repository klonen
 ```bash
 git clone https://github.com/SunnyDevZH/Ring-of-Fire
-cd ringoffire
+cd Ring-of-Fire
 ```
 
 ### 2. Abhängigkeiten installieren
